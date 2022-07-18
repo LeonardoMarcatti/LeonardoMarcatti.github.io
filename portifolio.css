@@ -12,6 +12,9 @@ h1{
 
 h2{
     text-align: center;
+    margin: 0px;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 h3{
@@ -42,7 +45,7 @@ nav{
 
 nav > a{
     color: #e50914;
-    margin: 20px;
+    margin: 0px 20px;
     font-size: 30px;
     text-decoration: none;
     font-weight: bold;
@@ -88,29 +91,40 @@ ul > li:hover ~ li img:hover {
 }
 
 #s1{
-    position: relative;
+    height: 500px;
+}
+
+#cont{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
 }
 
 #s1 > div{
-    display: inline-block;
+    margin-top: 50px;
 }
 
-#s1 > div:first-child{
-    width: 20%;
-    background-color: rgba(30,30,30);
+#cont > div:first-child{
+    width: 25%;
     border-radius: 25px;
     padding: 10px;
-    margin-left: 150px;
+    margin-left: 10px;
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
 }
 
-#s1 > div:nth-child(2){
+#cont > div:nth-child(2){
     width: 50%;
-    position: absolute;
     height: 150px;
     top: calc(50% - 75px);
-    background-color: rgba(30,30,30);
     border-radius: 0px 25px 25px 0px;
     padding: 10px;
+    background-color: rgb(40, 40, 40);
 }
 
 #s1 > div > p{
@@ -130,8 +144,6 @@ figcaption{
 
 p{
     font-size: 20px;
-    text-align: center;
-    margin: 0px;
 }
 
 b{
@@ -145,12 +157,6 @@ a{
 li{
     list-style-type: none;
     padding: 10px;
-}
-
-h2{
-    margin: 0px;
-    padding: 10px;
-    margin-top: 50px;
 }
 
 .mini_bar{
