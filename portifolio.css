@@ -1,0 +1,165 @@
+body{
+    background-color: rgba(10,10,10);
+    color: gray;
+}
+
+h1{
+    color: #e50914;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    width: 30%;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    background-color: #e50914;
+    display: inline-block;
+    width: 200px;
+    padding: 5px 15px;
+    border-radius: 0px 0px 15px 15px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+#descricao{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header{
+    background-image: linear-gradient(to bottom, #303030, rgba(30,30,30));
+    width: 100%;
+}
+
+nav{
+    text-align: end;
+    float: right;
+}
+
+nav > a{
+    color: #e50914;
+    margin: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    transition: all .20s;
+    color: gray;
+}
+
+figure > img{
+    width: 200px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 3px solid #e50914;
+    box-shadow: 0px 0px 20px red;
+}
+
+ul li img{
+    width: 150px;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: darkgray;
+    border-radius: 15px;
+}
+
+ul li{
+    width: 150px;
+    display: inline-block;
+    margin: 10px;
+}
+
+ul > li:hover img:hover{
+    transform: scale(1.1);
+    transition: all .5s;
+    box-shadow: 0px 0px 30px red;
+}
+
+ul > li:hover ~ li img:hover {
+    opacity: 0;
+    transition: all .5s;
+}
+
+#s1{
+    position: relative;
+}
+
+#s1 > div{
+    display: inline-block;
+}
+
+#s1 > div:first-child{
+    width: 20%;
+    background-color: rgba(30,30,30);
+    border-radius: 25px;
+    padding: 10px;
+    margin-left: 150px;
+}
+
+#s1 > div:nth-child(2){
+    width: 50%;
+    position: absolute;
+    height: 150px;
+    top: calc(50% - 75px);
+    background-color: rgba(30,30,30);
+    border-radius: 0px 25px 25px 0px;
+    padding: 10px;
+}
+
+#s1 > div > p{
+    text-align: left;
+}
+
+figure{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+figcaption{
+    margin-top: 10px;
+    padding: 0px;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+b{
+    color: lightgray;
+}
+
+a{
+    color: red;
+}
+
+li{
+    list-style-type: none;
+    padding: 10px;
+}
+
+h2{
+    margin: 0px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.mini_bar{
+    background-color: #e50914;
+    height: 5px;
+    border-top: 2px solid white;
+}
+
+#s2{
+    margin-bottom: 50px;
+    text-align: center;
+}
